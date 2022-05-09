@@ -2,7 +2,7 @@
   "name": "adct.it",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --host",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
@@ -36,6 +36,6 @@
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
-    "sveltestrap": "^5.7.0"
+    "sveltestrap": "github:laxadev/sveltestrap"
   }
 }

@@ -27,7 +27,7 @@
 	<meta property="og:type" content="website" />
 </svelte:head>
 
-<main role="main" class="flex-shrink-0 mt-3">
+<main class="flex-shrink-0 mt-3">
 	<Container>
 		<slot />
 	</Container>
