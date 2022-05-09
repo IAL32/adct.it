@@ -8,10 +8,10 @@
 </script>
 
 <Col xs="12">
-	<span class="float-right when">{position}</span>
+	<span class="float-right when">{company}</span>
 	<h2>
 		<img class="brand-logo" {alt} src={`img/${logo}`} />
-		{company}
+		{position}
 	</h2>
   <slot />
 </Col>

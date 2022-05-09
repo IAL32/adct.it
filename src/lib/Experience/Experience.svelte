@@ -5,9 +5,9 @@
 
 <Block title="Experience">
 	<ExperiencePiece
-		position="Software Eng., 09/2021 - Present"
+		position="Software Engineer"
 		alt="data4life Logo"
-		company="D4L data4life gGmbH."
+		company="D4L data4life gGmbH., 09/2021 - Present"
 		logo="icon-d4l.png">
 		<ul>
 			<li>Software Engineer with DevOps / SRE mindset</li>
@@ -16,20 +16,14 @@
 				<a href="https://github.com/notaryproject/notary/"> Notary </a>
 				for securing company's infrastructure
 			</li>
-			<li>
-				Worked and got my hands dirty with
-				<abbr title="Infrastructure as a Service">IaaS</abbr>
-				using OpenStack,
-				<abbr title="Provision as Code">PaC</abbr>
-				using Ansible and Immutable Infrastructure with Packer.
-			</li>
+			<li>Developed and maintained CI/CD pipelines with Jenkins</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Full-Stack / C++ Developer, 2020 - 08/2021"
+		position="Software Engineer"
 		alt="BioDataAnalysis GmbH Logo"
 		logo="icon-bda.svg"
-		company="BioDataAnalysis GmbH.">
+		company="BioDataAnalysis GmbH., 2020 - 08/2021">
 		<ul>
 			<li>Developed a custom web interface to show microscope data</li>
 			<li>Developed backend of several internal applications</li>
@@ -38,10 +32,10 @@
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Software Engineer, 10/2020 - Present"
+		position="Software Engineer"
 		alt="Heveloon Ltd Logo"
 		logo="icon-heveloon.png"
-		company="Heveloon Ltd.">
+		company="Heveloon Ltd., 10/2020 - Present">
 		<ul>
 			<li>
 				Projects:
@@ -58,10 +52,10 @@
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Internship, 03/2019 - 06/2019"
+		position="Internship"
 		alt="UniMiB Logo"
 		logo="icon-unimib.png"
-		company="Universit&agrave; degli studi di Milano-Bicocca">
+		company="Universit&agrave; degli studi di Milano-Bicocca, 03/2019 - 06/2019">
 		<ul>
 			<li>
 				Explored and developed a novel algorithm for cancer cell categorization using Particle Swarm
@@ -70,40 +64,40 @@
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Technical Co-Founder, 2019 - 03/2022"
+		position="Technical Co-Founder"
 		alt="Joleat Logo"
 		logo="icon-joleat.png"
-		company="Joleat">
+		company="Joleat, 2019 - 2022">
 		<ul>
 			<li>Shaped company's technological goals</li>
 			<li>Developed the website from ground-up</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Staff Board Member, 2017 - Present"
+		position="Staff Board Member"
 		alt="UnixMiB Logo"
 		logo="icon-unixmib.png"
-		company="UnixMiB">
+		company="UnixMiB, 2017 - Present">
 		<ul>
 			<li>Helped to propose, organize and setup of international events</li>
 			<li>Actively committed to Open Source community</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Junior Partner, 2017 - 2019"
+		position="Junior Partner"
 		alt="Bicocca Security Laboratory Logo"
 		logo="icon-bislab.png"
-		company="Bicocca Security Laboratory">
+		company="Bicocca Security Laboratory, 2017 - 2019">
 		<ul>
 			<li>Helped to coordinate tasks for security research</li>
 			<li>Learned about state-of-the-art security standards (GDPR)</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Full-Stack Developer, 2017 - 2021"
+		position="Full-Stack Developer"
 		alt="Net2Web Srl Logo"
 		logo="icon-tuttobarche.png"
-		company="Net2Web Srl.">
+		company="Net2Web Srl., 2017 - 2021">
 		<ul>
 			<li>Helped to shape company's technological goals</li>
 			<li>Developed the website from ground-up in Java</li>

@@ -8,30 +8,12 @@
 	import Education from '$lib/Education/Education.svelte';
 	import Experience from '$lib/Experience/Experience.svelte';
 	import ExtLink from '$lib/ExtLink.svelte';
-	import { Col } from 'sveltestrap';
+	import { Col, Row } from 'sveltestrap';
 </script>
 
 <AboutMe />
-<Education />
 <Experience />
-
-<!-- Languages -->
-<Block title="Languages">
-	<Col xs="12" md="">
-		<strong>Spanish &bull; Italian &bull; English</strong>
-		-
-		<i>Mother tongue / Advanced</i>
-	</Col>
-	<Col xs="12" md="">
-		<strong>German</strong>
-		-
-		<i>A1 (read, write, spoken)</i>
-		&bull;
-		<strong>French</strong>
-		-
-		<i>A2 (read) A1(write) A1 (spoken)</i>
-	</Col>
-</Block>
+<Education />
 
 <!-- Events -->
 <Block title="Events" print={false}>
@@ -47,27 +29,28 @@
 		<ExtLink href="https://mlconf.com/">MLConf San Francisco 2019</ExtLink>
 		- Helped to organize the yearly MLConf in SF
 	</Col>
+	<Col xs="12">
+		<ExtLink href="https://fosdem.org/">FOSDEM</ExtLink>
+		- Participant since 2019
+	</Col>
 </Block>
 
 <!-- Papers and essays -->
 <Block title="Papers and Essays">
 	<Col xs="12">
 		(UniMiB)
-		<strong>Bachelor's Thesis:</strong>
 		<ExtLink href="https://github.com/IAL32/UNIMIBThesis">
 			Particle Swarm Optimization (PSO) for single-cell data
 		</ExtLink>
 	</Col>
 	<Col xs="12">
 		(TUM)
-		<strong>Seminar Essay:</strong>
 		<ExtLink href="https://github.com/IAL32/TUMSS20IRS">
 			Collecting Implicit User Feedback for WordPress Websites
 		</ExtLink>
 	</Col>
 	<Col xs="12">
 		(TUM)
-		<strong>Praktikum Project:</strong>
 		<ExtLink href="https://github.com/IAL32/TUMWS20DMLAB">Big Data Mining of UN-Comtrade</ExtLink>
 	</Col>
 	<Col xs="12">
@@ -77,7 +60,6 @@
 	</Col>
 	<Col xs="12">
 		(TUM)
-		<strong>Guided Research:</strong>
 		<ExtLink href="https://github.com/IAL32/TUMWS21GR">
 			Exploring and Analyzing Compression Algorithms in Preprocessing Pipelines
 		</ExtLink>
@@ -86,7 +68,6 @@
 	</Col>
 	<Col xs="12">
 		(TUM)
-		<strong>Application Project:</strong>
 		<ExtLink href="https://github.com/IAL32/TUMWS21AP">
 			Model Parallelism: Challenges, State-of-the-art, and Future Directions
 		</ExtLink>
@@ -157,6 +138,34 @@
 	</Col>
 </Block>
 
+<!-- Technologies Keywords -->
+<Block title="Technologies and Knowledge" print={true}>
+	<Col xs="12" style="font-size: 11pt">
+		CI/CD
+		&bull; DevOps
+		&bull; JavaScript
+		&bull; Node.js
+		&bull; Python
+		&bull; C++
+		&bull; Backend Development
+		&bull; Data Engineering
+		&bull; Machine Learning
+		&bull; Optimization
+		&bull; AWS
+		&bull; Terraform
+		&bull; Linux
+		&bull; Unix
+		&bull; SQL
+		&bull; REST APIs
+		&bull; High Performance Computing
+		&bull; Distributed Systems
+		&bull; Microservices
+		&bull; Agile Development
+	</Col>
+</Block>
+
 <Block title="References" print={false}>
 	<Col xs="12">Available on request</Col>
 </Block>
+
+<Row class="mb-5"></Row>
