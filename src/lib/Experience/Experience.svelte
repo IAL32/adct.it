@@ -1,9 +1,30 @@
 <script>
 	import Block from '$lib/Block.svelte';
+import ExtLink from '$lib/ExtLink.svelte';
 	import ExperiencePiece from './ExperiencePiece.svelte';
 </script>
 
 <Block title="Experience">
+	<ExperiencePiece
+		position="Data Engineer"
+		alt="IONITY Logo"
+		company="IONITY GmbH, 09/2022 - Present"
+		logo="icon-ionity.png">
+		<ul>
+			<li>I will build and automate production pipelines for data centered around EV charging in the cloud</li>
+			<li>I will design the structure and schema of the company's central data lake and warehouse</li>
+		</ul>
+	</ExperiencePiece>
+	<ExperiencePiece
+		position="Software Engineer"
+		alt="TUM AI Logo"
+		company="TUM.AI, 04/2022 - Present"
+		logo="icon-tum-ai.png">
+		<ul>
+			<li>Re-designed the TUM.ai website from scratch using <ExtLink href="https://github.com/vercel/next.js">Next.js</ExtLink></li>
+			<li>Helped to organize the software development team</li>
+		</ul>
+	</ExperiencePiece>
 	<ExperiencePiece
 		position="Software Engineer"
 		alt="data4life Logo"
@@ -13,10 +34,11 @@
 			<li>Software Engineer with DevOps / SRE mindset</li>
 			<li>
 				Led the integration of
-				<a href="https://github.com/notaryproject/notary/"> Notary </a>
+				<ExtLink href="https://github.com/notaryproject/notary/"> Notary </ExtLink>
 				for securing company's infrastructure
 			</li>
 			<li>Developed and maintained CI/CD pipelines with Jenkins</li>
+			<li>Developed and maintained our Kubernetes clusters</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -48,6 +70,8 @@
 				<a href="https://www.widecareservices.com/" target="_blank"> Wide Care Services </a>
 				&bull;
 				<a href="https://www.sisterly.it/" target="_blank"> Sisterly </a>
+				&bull;
+				<a href="https://www.imperivm.io/" target="_blank"> Imperivm </a>
 			</li>
 		</ul>
 	</ExperiencePiece>
@@ -55,7 +79,8 @@
 		position="Internship"
 		alt="UniMiB Logo"
 		logo="icon-unimib.png"
-		company="Universit&agrave; degli studi di Milano-Bicocca, 03/2019 - 06/2019">
+		company="Universit&agrave; degli studi di Milano-Bicocca, 03/2019 - 06/2019"
+		print={false}>
 		<ul>
 			<li>
 				Explored and developed a novel algorithm for cancer cell categorization using Particle Swarm
@@ -87,7 +112,8 @@
 		position="Junior Partner"
 		alt="Bicocca Security Laboratory Logo"
 		logo="icon-bislab.png"
-		company="Bicocca Security Laboratory, 2017 - 2019">
+		company="Bicocca Security Laboratory, 2017 - 2019"
+		print={false}>
 		<ul>
 			<li>Helped to coordinate tasks for security research</li>
 			<li>Learned about state-of-the-art security standards (GDPR)</li>

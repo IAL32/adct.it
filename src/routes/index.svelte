@@ -36,7 +36,7 @@
 </Block>
 
 <!-- Papers and essays -->
-<Block title="Papers and Essays">
+<Block title="Papers and Essays" print={false}>
 	<Col xs="12">
 		(UniMiB)
 		<ExtLink href="https://github.com/IAL32/UNIMIBThesis">
@@ -108,22 +108,14 @@
 </Block>
 
 <!-- Contributed to -->
-<Block title="Contributed To" print={false}>
+<Block title="Contributed To" print={true}>
 	<Col xs="12">
-		<ExtLink href="https://github.com/flathunters/flathunter">Flathunter</ExtLink>
-		- A Telegram bot to help people with their flat search.
-	</Col>
-	<Col xs="12">
-		<ExtLink href="https://github.com/notaryproject/notary">Notary</ExtLink>
-		- Implementation of the TUF framework for securing software updates.
-	</Col>
-	<Col xs="12">
-		<ExtLink href="https://github.com/docker/docker.github.io">Docs @ Docker</ExtLink>
-		- Docker official documentation repository.
-	</Col>
-	<Col xs="12">
-		<ExtLink href="https://github.com/tensorflow/tensorflow">TensorFlow</ExtLink>
-		- TensorFlow official repository.
+		<ExtLink href="https://github.com/flathunters/flathunter"> Flathunter </ExtLink>
+		<ExtLink href="https://github.com/notaryproject/notary"> Notary </ExtLink>
+		<ExtLink href="https://github.com/docker/docker.github.io"> Docs @ Docker </ExtLink>
+		<ExtLink href="https://github.com/tensorflow/tensorflow"> TensorFlow </ExtLink>
+		<ExtLink href="https://github.com/learning-at-home/hivemind"> Hivemind </ExtLink>
+		<ExtLink href="https://github.com/sse-secure-systems/connaisseur"> Connaisseur </ExtLink>
 	</Col>
 </Block>
 
@@ -161,6 +153,7 @@
 		&bull; Distributed Systems
 		&bull; Microservices
 		&bull; Agile Development
+		&bull; Kubernetes
 	</Col>
 </Block>
 
