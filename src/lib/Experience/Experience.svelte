@@ -11,8 +11,9 @@ import ExtLink from '$lib/ExtLink.svelte';
 		company="IONITY GmbH, 09/2022 - Present"
 		logo="icon-ionity.png">
 		<ul>
-			<li>I will build and automate production pipelines for data centered around EV charging in the cloud</li>
-			<li>I will design the structure and schema of the company's central data lake and warehouse</li>
+			<li>I am building and automating production pipelines for data centered around EV charging using AWS</li>
+			<li>I am designing the structure and schema of the company's central data lake and warehouse</li>
+			<li>I am defining the internal and external data goals for the company</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
