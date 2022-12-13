@@ -19,7 +19,7 @@ import ExtLink from '$lib/ExtLink.svelte';
 	<ExperiencePiece
 		position="Software Engineer"
 		alt="TUM AI Logo"
-		company="TUM.AI, 04/2022 - Present"
+		company="TUM.AI, 04/2022 - 10/2022"
 		logo="icon-tum-ai.png">
 		<ul>
 			<li>Re-designed the TUM.ai website from scratch using <ExtLink href="https://github.com/vercel/next.js">Next.js</ExtLink></li>
@@ -29,7 +29,7 @@ import ExtLink from '$lib/ExtLink.svelte';
 	<ExperiencePiece
 		position="Software Engineer"
 		alt="data4life Logo"
-		company="D4L data4life gGmbH., 09/2021 - Present"
+		company="D4L data4life gGmbH., 09/2021 - 09/2022"
 		logo="icon-d4l.png">
 		<ul>
 			<li>Software Engineer with DevOps / SRE mindset</li>
@@ -58,7 +58,7 @@ import ExtLink from '$lib/ExtLink.svelte';
 		position="Software Engineer"
 		alt="Heveloon Ltd Logo"
 		logo="icon-heveloon.png"
-		company="Heveloon Ltd., 10/2020 - Present">
+		company="Heveloon Ltd., 10/2020 - 09/2022">
 		<ul>
 			<li>
 				Projects:
