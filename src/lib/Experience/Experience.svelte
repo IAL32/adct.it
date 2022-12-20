@@ -1,6 +1,6 @@
 <script>
 	import Block from '$lib/Block.svelte';
-import ExtLink from '$lib/ExtLink.svelte';
+	import ExtLink from '$lib/ExtLink.svelte';
 	import ExperiencePiece from './ExperiencePiece.svelte';
 </script>
 
@@ -11,9 +11,24 @@ import ExtLink from '$lib/ExtLink.svelte';
 		company="IONITY GmbH, 09/2022 - Present"
 		logo="icon-ionity.png">
 		<ul>
-			<li>I am building and automating production pipelines for data centered around EV charging using AWS</li>
-			<li>I am designing the structure and schema of the company's central data lake and warehouse</li>
+			<li>
+				I am building and automating production pipelines for data centered around EV charging using
+				AWS
+			</li>
+			<li>
+				I am designing the structure and schema of the company's central data lake and warehouse
+			</li>
 			<li>I am defining the internal and external data goals for the company</li>
+		</ul>
+	</ExperiencePiece>
+	<ExperiencePiece
+		position="Staff Board Member"
+		alt="UnixMiB Logo"
+		logo="icon-unixmib.png"
+		company="UnixMiB, 2017 - Present">
+		<ul>
+			<li>Helped to propose, organize and setup of international events</li>
+			<li>Actively committed to Open Source community</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -22,7 +37,10 @@ import ExtLink from '$lib/ExtLink.svelte';
 		company="TUM.AI, 04/2022 - 10/2022"
 		logo="icon-tum-ai.png">
 		<ul>
-			<li>Re-designed the TUM.ai website from scratch using <ExtLink href="https://github.com/vercel/next.js">Next.js</ExtLink></li>
+			<li>
+				Re-designed the TUM.ai website from scratch using <ExtLink
+					href="https://github.com/vercel/next.js">Next.js</ExtLink>
+			</li>
 			<li>Helped to organize the software development team</li>
 		</ul>
 	</ExperiencePiece>
@@ -35,23 +53,11 @@ import ExtLink from '$lib/ExtLink.svelte';
 			<li>Software Engineer with DevOps / SRE mindset</li>
 			<li>
 				Led the integration of
-				<ExtLink href="https://github.com/notaryproject/notary/"> Notary </ExtLink>
+				<ExtLink href="https://github.com/notaryproject/notary/">Notary</ExtLink>
 				for securing company's infrastructure
 			</li>
 			<li>Developed and maintained CI/CD pipelines with Jenkins</li>
 			<li>Developed and maintained our Kubernetes clusters</li>
-		</ul>
-	</ExperiencePiece>
-	<ExperiencePiece
-		position="Software Engineer"
-		alt="BioDataAnalysis GmbH Logo"
-		logo="icon-bda.svg"
-		company="BioDataAnalysis GmbH., 2020 - 08/2021">
-		<ul>
-			<li>Developed a custom web interface to show microscope data</li>
-			<li>Developed backend of several internal applications</li>
-			<li>Developed high-performance C++ libraries</li>
-			<li>Learned and managed GitLab CI/CD pipelines</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -77,6 +83,39 @@ import ExtLink from '$lib/ExtLink.svelte';
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
+		position="Technical Co-Founder"
+		alt="Joleat Logo"
+		logo="icon-joleat.png"
+		company="Joleat, 2019 - 2022">
+		<ul>
+			<li>Shaped company's technological goals</li>
+			<li>Developed the website from ground-up</li>
+		</ul>
+	</ExperiencePiece>
+	<ExperiencePiece
+		position="Software Engineer"
+		alt="BioDataAnalysis GmbH Logo"
+		logo="icon-bda.svg"
+		company="BioDataAnalysis GmbH., 2020 - 08/2021">
+		<ul>
+			<li>Developed a custom web interface to show microscope data</li>
+			<li>Developed backend of several internal applications</li>
+			<li>Developed high-performance C++ libraries</li>
+			<li>Learned and managed GitLab CI/CD pipelines</li>
+		</ul>
+	</ExperiencePiece>
+	<ExperiencePiece
+		position="Full-Stack Developer"
+		alt="Net2Web Srl Logo"
+		logo="icon-tuttobarche.png"
+		company="Net2Web Srl., 2017 - 2021">
+		<ul>
+			<li>Helped to shape company's technological goals</li>
+			<li>Developed the website from ground-up in Java</li>
+			<li>Used by 30-40.000 users monthly</li>
+		</ul>
+	</ExperiencePiece>
+	<ExperiencePiece
 		position="Internship"
 		alt="UniMiB Logo"
 		logo="icon-unimib.png"
@@ -90,26 +129,6 @@ import ExtLink from '$lib/ExtLink.svelte';
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Technical Co-Founder"
-		alt="Joleat Logo"
-		logo="icon-joleat.png"
-		company="Joleat, 2019 - 2022">
-		<ul>
-			<li>Shaped company's technological goals</li>
-			<li>Developed the website from ground-up</li>
-		</ul>
-	</ExperiencePiece>
-	<ExperiencePiece
-		position="Staff Board Member"
-		alt="UnixMiB Logo"
-		logo="icon-unixmib.png"
-		company="UnixMiB, 2017 - Present">
-		<ul>
-			<li>Helped to propose, organize and setup of international events</li>
-			<li>Actively committed to Open Source community</li>
-		</ul>
-	</ExperiencePiece>
-	<ExperiencePiece
 		position="Junior Partner"
 		alt="Bicocca Security Laboratory Logo"
 		logo="icon-bislab.png"
@@ -118,17 +137,6 @@ import ExtLink from '$lib/ExtLink.svelte';
 		<ul>
 			<li>Helped to coordinate tasks for security research</li>
 			<li>Learned about state-of-the-art security standards (GDPR)</li>
-		</ul>
-	</ExperiencePiece>
-	<ExperiencePiece
-		position="Full-Stack Developer"
-		alt="Net2Web Srl Logo"
-		logo="icon-tuttobarche.png"
-		company="Net2Web Srl., 2017 - 2021">
-		<ul>
-			<li>Helped to shape company's technological goals</li>
-			<li>Developed the website from ground-up in Java</li>
-			<li>Used by 30-40.000 users monthly</li>
 		</ul>
 	</ExperiencePiece>
 </Block>
