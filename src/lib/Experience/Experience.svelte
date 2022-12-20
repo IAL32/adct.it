@@ -12,13 +12,10 @@
 		logo="icon-ionity.png">
 		<ul>
 			<li>
-				I am building and automating production pipelines for data centered around EV charging using
-				AWS
+				Engineered the CI/CD pipelines from the ground up, doubling productivity and iteration speed
 			</li>
-			<li>
-				I am designing the structure and schema of the company's central data lake and warehouse
-			</li>
-			<li>I am defining the internal and external data goals for the company</li>
+			<li>Increased the ability to scale data pipelines</li>
+			<li>Defined the internal and external data goals for the company</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -35,7 +32,8 @@
 		position="Software Engineer"
 		alt="TUM AI Logo"
 		company="TUM.AI, 04/2022 - 10/2022"
-		logo="icon-tum-ai.png">
+		logo="icon-tum-ai.png"
+		print={false}>
 		<ul>
 			<li>
 				Re-designed the TUM.ai website from scratch using <ExtLink
@@ -50,13 +48,14 @@
 		company="D4L data4life gGmbH., 09/2021 - 09/2022"
 		logo="icon-d4l.png">
 		<ul>
-			<li>Software Engineer with DevOps / SRE mindset</li>
 			<li>
 				Led the integration of
 				<ExtLink href="https://github.com/notaryproject/notary/">Notary</ExtLink>
 				for securing company's infrastructure
 			</li>
-			<li>Developed and maintained CI/CD pipelines with Jenkins</li>
+			<li>
+				Increased productivity by 30% by speeding up Jenkins pipelines and Ansible deployments
+			</li>
 			<li>Developed and maintained our Kubernetes clusters</li>
 		</ul>
 	</ExperiencePiece>
@@ -88,8 +87,10 @@
 		logo="icon-joleat.png"
 		company="Joleat, 2019 - 2022">
 		<ul>
-			<li>Shaped company's technological goals</li>
-			<li>Developed the website from ground-up</li>
+			<li>Pitched our company to hundreds of people</li>
+			<li>Grew the company from 0 to 400 sales in just 6 months</li>
+			<li>Onboarded 60+ business partners to sell on our platform</li>
+			<li>Everything with no capital invested in marketing</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -98,10 +99,12 @@
 		logo="icon-bda.svg"
 		company="BioDataAnalysis GmbH., 2020 - 08/2021">
 		<ul>
-			<li>Developed a custom web interface to show microscope data</li>
-			<li>Developed backend of several internal applications</li>
-			<li>Developed high-performance C++ libraries</li>
-			<li>Learned and managed GitLab CI/CD pipelines</li>
+			<li>Built from scratch a React web app to dynamically load data from microscopes</li>
+			<li>Developed high-performance C++ internal libraries</li>
+			<li>Built from scratch the frontend integration for Apache Thrift</li>
+			<li>
+				Developed and maintained GitLab CI/CD pipelines, increasing development productivity by 20%
+			</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -110,9 +113,9 @@
 		logo="icon-tuttobarche.png"
 		company="Net2Web Srl., 2017 - 2021">
 		<ul>
-			<li>Helped to shape company's technological goals</li>
-			<li>Developed the website from ground-up in Java</li>
-			<li>Used by 30-40.000 users monthly</li>
+			<li>Increased the the monthly number of visitors from 20.000 to 40.000</li>
+			<li>Increased loading speed of monolithic Java web application by 75%</li>
+			<li>Managed tens of independent WordPress websites</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
