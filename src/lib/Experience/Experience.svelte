@@ -11,7 +11,7 @@
 		company="IONITY GmbH, 09/2022 - Present"
 		logo="icon-ionity.png">
 		<ul>
-			<li>Led the effort of modernizing the entire data structure from the ground-up on AWS</li>
+			<li>Led the effort of modernizing the entire data structure from the ground-up on AWS, reducing costs by 50%</li>
 			<li>
 				Modernized the team's development processes by introducing software-engineering
 				methodologies, drastically reducing technical debt and increased trust in data processes
@@ -22,7 +22,6 @@
 				thousands of records per day coming from tens of sources within and outside our company
 			</li>
 			<li>Increased speed of existing pipelines by 50% to 250%</li>
-			<li>Reduced data infrastructure costs by 50%</li>
 			<li>
 				Increased data awareness by setting company-wide standards in terms of data governance and
 				policies
