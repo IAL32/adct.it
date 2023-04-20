@@ -61,6 +61,7 @@
 		logo="icon-heveloon.png"
 		company="Heveloon Ltd., 10/2020 - 09/2022">
 		<ul>
+			<li>Backend development of REST APIs and integration with Blockchain applications</li>
 			<li>
 				Projects:
 				<a href="https://autumn-whispers.com/" target="_blank"> AutumnWhispers Ltd. </a>
@@ -95,12 +96,8 @@
 		logo="icon-bda.svg"
 		company="BioDataAnalysis GmbH., 2020 - 08/2021">
 		<ul>
-			<li>Built from scratch a React web app to dynamically load data from microscopes</li>
 			<li>Developed high-performance C++ internal libraries</li>
-			<li>Built from scratch the frontend integration for Apache Thrift</li>
-			<li>
-				Developed and maintained GitLab CI/CD pipelines, increasing development productivity by 20%
-			</li>
+			<li>Worked on frontend applications with data coming from our C++ Thrift APIs</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -109,7 +106,7 @@
 		logo="icon-tuttobarche.png"
 		company="Net2Web Srl., 2017 - 2021">
 		<ul>
-			<li>Increased the the monthly number of visitors from 20.000 to 40.000</li>
+			<li>Doubled the the monthly number of visitors from 20.000 to 40.000</li>
 			<li>Increased speed of monolithic Java web application by 75%</li>
 			<li>Managed tens of independent WordPress websites</li>
 		</ul>

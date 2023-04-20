@@ -116,6 +116,7 @@
 		<ExtLink href="https://github.com/tensorflow/tensorflow"> TensorFlow </ExtLink>
 		<ExtLink href="https://github.com/learning-at-home/hivemind"> Hivemind </ExtLink>
 		<ExtLink href="https://github.com/sse-secure-systems/connaisseur"> Connaisseur </ExtLink>
+		<ExtLink href="https://github.com/apache/airflow"> Apache Airflow </ExtLink>
 	</Col>
 </Block>
 
