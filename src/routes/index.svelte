@@ -134,6 +134,7 @@
 <Block title="Technologies and Knowledge" print={true}>
 	<Col xs="12" style="font-size: 11pt">
 		CI/CD
+		&bull; AWS
 		&bull; DevOps
 		&bull; JavaScript
 		&bull; Node.js
@@ -141,12 +142,14 @@
 		&bull; C++
 		&bull; Backend Development
 		&bull; Data Engineering
-		&bull; Machine Learning
-		&bull; Optimization
-		&bull; AWS
+		&bull; Airflow
+		&bull; Batch Data Processing
+		&bull; Event Processing
+		&bull; Deep Learning
 		&bull; Terraform
 		&bull; Linux
 		&bull; Unix
+		&bull; Databases
 		&bull; SQL
 		&bull; REST APIs
 		&bull; High Performance Computing
