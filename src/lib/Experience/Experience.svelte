@@ -11,11 +11,22 @@
 		company="IONITY GmbH, 09/2022 - Present"
 		logo="icon-ionity.png">
 		<ul>
+			<li>Led the effort of modernizing the entire data structure from the ground-up on AWS</li>
 			<li>
-				Engineered the CI/CD pipelines from the ground up, doubling productivity and iteration speed
+				Modernized the team's development processes by introducing software-engineering
+				methodologies, drastically reducing technical debt and increased trust in data processes
 			</li>
-			<li>Increased the ability to scale data pipelines</li>
-			<li>Defined the internal and external data goals for the company</li>
+			<li>Created CI/CD pipelines on GitLab for automated deployments of Terraform code on AWS</li>
+			<li>
+				Created pipelines involving Airflow, Glue and Kinesis Firehose handling hundreds of
+				thousands of records per day coming from tens of sources within and outside our company
+			</li>
+			<li>Increased speed of existing pipelines by 50% to 250%</li>
+			<li>Reduced data infrastructure costs by 50%</li>
+			<li>
+				Increased data awareness by setting company-wide standards in terms of data governance and
+				policies
+			</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -26,20 +37,6 @@
 		<ul>
 			<li>Helped to propose, organize and setup of international events</li>
 			<li>Actively committed to Open Source community</li>
-		</ul>
-	</ExperiencePiece>
-	<ExperiencePiece
-		position="Software Engineer"
-		alt="TUM AI Logo"
-		company="TUM.AI, 04/2022 - 10/2022"
-		logo="icon-tum-ai.png"
-		print={false}>
-		<ul>
-			<li>
-				Re-designed the TUM.ai website from scratch using <ExtLink
-					href="https://github.com/vercel/next.js">Next.js</ExtLink>
-			</li>
-			<li>Helped to organize the software development team</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -56,7 +53,6 @@
 			<li>
 				Increased productivity by 30% by speeding up Jenkins pipelines and Ansible deployments
 			</li>
-			<li>Developed and maintained our Kubernetes clusters</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -114,7 +110,7 @@
 		company="Net2Web Srl., 2017 - 2021">
 		<ul>
 			<li>Increased the the monthly number of visitors from 20.000 to 40.000</li>
-			<li>Increased loading speed of monolithic Java web application by 75%</li>
+			<li>Increased speed of monolithic Java web application by 75%</li>
 			<li>Managed tens of independent WordPress websites</li>
 		</ul>
 	</ExperiencePiece>
