@@ -5,11 +5,10 @@
 
 <Block title="Education">
 	<EducationPiece
-		location="Munich, Germany, 2019 - Current"
+		location="Munich, Germany, 2019 - 2022"
 		alt="TUM Logo"
 		degree="M.Sc. Data Engineering and Analytics"
 		logo="icon-tum.png"
-		wip={true}
 		name="Technische Universit&auml;t M&uuml;nchen" />
 	<EducationPiece
 		location="Milan, Italy, 2016 - 2019"
