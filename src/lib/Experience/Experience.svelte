@@ -7,11 +7,25 @@
 <Block title="Experience">
 	<ExperiencePiece
 		position="Data Engineer"
+		alt="Tacto Logo"
+		company="Tacto GmbH, 09/2023 - Present"
+		logo="icon-tacto.png">
+		<ul>
+			<li>Leading the company to be data-driven</li>
+			<li>Building a data platform from the ground-up on Azure</li>
+		</ul>
+	</ExperiencePiece>
+
+	<ExperiencePiece
+		position="Data Engineer"
 		alt="IONITY Logo"
-		company="IONITY GmbH, 09/2022 - Present"
+		company="IONITY GmbH, 09/2022 - 08/2023"
 		logo="icon-ionity.png">
 		<ul>
-			<li>Led the effort of modernizing the entire data structure from the ground-up on AWS, reducing costs by 50%</li>
+			<li>
+				Led the effort of modernizing the entire data structure from the ground-up on AWS, reducing
+				costs by 50%
+			</li>
 			<li>
 				Modernized the team's development processes by introducing software-engineering
 				methodologies, drastically reducing technical debt and increased trust in data processes
@@ -41,7 +55,7 @@
 	<ExperiencePiece
 		position="Software Engineer"
 		alt="data4life Logo"
-		company="D4L data4life gGmbH., 09/2021 - 09/2022"
+		company="D4L data4life gGmbH., 09/2021 - 08/2022"
 		logo="icon-d4l.png">
 		<ul>
 			<li>
