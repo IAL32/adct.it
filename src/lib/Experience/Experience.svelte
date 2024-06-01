@@ -6,7 +6,7 @@
 
 <Block title="Experience">
 	<ExperiencePiece
-		position="Data Engineer"
+		position="Senior Data Engineer"
 		alt="Tacto Logo"
 		company="Tacto GmbH, 09/2023 - Present"
 		logo="icon-tacto.png">
