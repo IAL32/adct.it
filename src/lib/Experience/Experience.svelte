@@ -24,32 +24,24 @@
 		<ul>
 			<li>
 				Led the effort of modernizing the entire data structure from the ground-up on AWS, reducing
-				costs by 50%
+				costs by 50%. High availability, scalability and security were the main focus.
 			</li>
-			<li>
+			<li class="d-print-none">
 				Modernized the team's development processes by introducing software-engineering
 				methodologies, drastically reducing technical debt and increased trust in data processes
 			</li>
-			<li>Created CI/CD pipelines on GitLab for automated deployments of Terraform code on AWS</li>
-			<li>
+			<li class="d-print-none">
+				Created CI/CD pipelines on GitLab for automated deployments of Terraform code on AWS
+			</li>
+			<li class="d-print-none">
 				Created pipelines involving Airflow, Glue and Kinesis Firehose handling hundreds of
 				thousands of records per day coming from tens of sources within and outside our company
 			</li>
-			<li>Increased speed of existing pipelines by 50% to 250%</li>
-			<li>
+			<li class="d-print-none">Increased speed of existing pipelines by 50% to 250%</li>
+			<li class="d-print-none">
 				Increased data awareness by setting company-wide standards in terms of data governance and
 				policies
 			</li>
-		</ul>
-	</ExperiencePiece>
-	<ExperiencePiece
-		position="Staff Board Member"
-		alt="UnixMiB Logo"
-		logo="icon-unixmib.png"
-		company="UnixMiB, 2017 - Present">
-		<ul>
-			<li>Helped to propose, organize and setup of international events</li>
-			<li>Actively committed to Open Source community</li>
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
@@ -57,7 +49,7 @@
 		alt="data4life Logo"
 		company="D4L data4life gGmbH., 09/2021 - 08/2022"
 		logo="icon-d4l.png">
-		<ul>
+		<ul class="d-print-none">
 			<li>
 				Led the integration of
 				<ExtLink href="https://github.com/notaryproject/notary/">Notary</ExtLink>
@@ -104,11 +96,21 @@
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
+		position="Staff Board Member"
+		alt="UnixMiB Logo"
+		logo="icon-unixmib.png"
+		company="UnixMiB, 2017 - Present">
+		<ul class="d-print-none">
+			<li>Helped to propose, organize and setup of international events</li>
+			<li>Actively committed to Open Source community</li>
+		</ul>
+	</ExperiencePiece>
+	<ExperiencePiece
 		position="Software Engineer"
 		alt="BioDataAnalysis GmbH Logo"
 		logo="icon-bda.svg"
 		company="BioDataAnalysis GmbH., 2020 - 08/2021">
-		<ul>
+		<ul class="d-print-none">
 			<li>Developed high-performance C++ internal libraries</li>
 			<li>Worked on frontend applications with data coming from our C++ Thrift APIs</li>
 		</ul>
@@ -117,13 +119,7 @@
 		position="Full-Stack Developer"
 		alt="Net2Web Srl Logo"
 		logo="icon-tuttobarche.png"
-		company="Net2Web Srl., 2017 - 2021">
-		<ul>
-			<li>Doubled the the monthly number of visitors from 20.000 to 40.000</li>
-			<li>Increased speed of monolithic Java web application by 75%</li>
-			<li>Managed tens of independent WordPress websites</li>
-		</ul>
-	</ExperiencePiece>
+		company="Net2Web Srl., 2017 - 2021" />
 	<ExperiencePiece
 		position="Internship"
 		alt="UniMiB Logo"

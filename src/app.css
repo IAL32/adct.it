@@ -20,13 +20,13 @@ a {
   height: 24px;
 }
 
-#objective p {
+#objective p, #education p {
   font-family: Georgia, Serif;
   font-style: italic;
   color: #666;
 }
 
-h1.full-name {
+.full-name {
   border-bottom: 1px solid #999;
   padding-bottom: 16px;
 }

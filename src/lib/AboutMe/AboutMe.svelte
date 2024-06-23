@@ -1,17 +1,31 @@
 <script>
 	import { Col, Icon, Row } from 'sveltestrap';
+	import EducationPiece from '$lib/Education/EducationPiece.svelte';
 </script>
 
 <Row class="d-flex align-item-start">
 	<Col>
-		<div class="mt-5">
-			<h1 class="full-name">Adrian Castro</h1>
+		<div class="mt-5 full-name">
+			<h1>Adrian Castro</h1>
+
+			<small>
+				Based in M&uuml;nchen, Germany | Italian (C2), Spanish (C2), English (C1), German (B1), French (A2)
+			</small>
 		</div>
 
-		<div class="mt-3" id="objective">
-			<p>
-				M&uuml;nchen, Germany | Italian (C2), Spanish (C2), English (C1), German (A2), French (A2)
-			</p>
+		<div class="mt-3" id="education">
+			<EducationPiece
+				location="Munich, Germany, 2019 - 2022"
+				alt="TUM Logo"
+				degree="M.Sc. Data Engineering and Analytics"
+				logo="icon-tum.png"
+				name="TUM" />
+			<EducationPiece
+				location="Milan, Italy, 2016 - 2019"
+				alt="UniMiB Logo"
+				logo="icon-unimib.png"
+				degree="B.Sc. Computer Science"
+				name="UniMiB" />
 		</div>
 	</Col>
 	<Col xs="auto" class="pic">

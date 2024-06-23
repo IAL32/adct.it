@@ -5,7 +5,6 @@
 <script lang="ts">
 	import AboutMe from '$lib/AboutMe/AboutMe.svelte';
 	import Block from '$lib/Block.svelte';
-	import Education from '$lib/Education/Education.svelte';
 	import Experience from '$lib/Experience/Experience.svelte';
 	import ExtLink from '$lib/ExtLink.svelte';
 	import { Col, Row } from 'sveltestrap';
@@ -13,7 +12,6 @@
 
 <AboutMe />
 <Experience />
-<Education />
 
 <!-- Events -->
 <Block title="Events" print={false}>
@@ -110,54 +108,34 @@
 <!-- Contributed to -->
 <Block title="Contributed To" print={true}>
 	<Col xs="12">
-		<ExtLink href="https://github.com/flathunters/flathunter"> Flathunter </ExtLink>
-		<ExtLink href="https://github.com/notaryproject/notary"> Notary </ExtLink>
-		<ExtLink href="https://github.com/docker/docker.github.io"> Docs @ Docker </ExtLink>
-		<ExtLink href="https://github.com/tensorflow/tensorflow"> TensorFlow </ExtLink>
-		<ExtLink href="https://github.com/learning-at-home/hivemind"> Hivemind </ExtLink>
-		<ExtLink href="https://github.com/sse-secure-systems/connaisseur"> Connaisseur </ExtLink>
-		<ExtLink href="https://github.com/apache/airflow"> Apache Airflow </ExtLink>
+		<ExtLink href="https://github.com/flathunters/flathunter">Flathunter</ExtLink>
+		<ExtLink href="https://github.com/notaryproject/notary">Notary</ExtLink>
+		<ExtLink href="https://github.com/docker/docker.github.io">Docs @ Docker</ExtLink>
+		<ExtLink href="https://github.com/tensorflow/tensorflow">TensorFlow</ExtLink>
+		<ExtLink href="https://github.com/learning-at-home/hivemind">Hivemind</ExtLink>
+		<ExtLink href="https://github.com/sse-secure-systems/connaisseur">Connaisseur</ExtLink>
+		<ExtLink href="https://github.com/apache/airflow">Apache Airflow</ExtLink>
 	</Col>
 </Block>
 
 <Block title="Hobbies">
 	<Col xs="12">
-		I love to cook every kind of food and dish, you can take a look at
-		<ExtLink href="https://recipes.adct.it/">recipes.adct.it</ExtLink>
-		for indications on how to replicate them!
+		I love to cook every kind of food and dish. I am a big fan of South American cuisine, especially
+		Ecuadorian and Peruvian. I also enjoy kickboxing and piano, although the latter is more like a
+		dead hobby.
 		<br />
-		I also enjoy kickboxing and piano, although the latter is more like a dead hobby. My weakness is
-		pausing movies or TV series to explain something happening there.
+		My weakness is pausing movies or TV series to explain something happening there.
 	</Col>
 </Block>
 
 <!-- Technologies Keywords -->
 <Block title="Technologies and Knowledge" print={true}>
 	<Col xs="12" style="font-size: 11pt">
-		CI/CD
-		&bull; AWS
-		&bull; DevOps
-		&bull; JavaScript
-		&bull; Node.js
-		&bull; Python
-		&bull; C++
-		&bull; Backend Development
-		&bull; Data Engineering
-		&bull; Airflow
-		&bull; Batch Data Processing
-		&bull; Event Processing
-		&bull; Deep Learning
-		&bull; Terraform
-		&bull; Linux
-		&bull; Unix
-		&bull; Databases
-		&bull; SQL
-		&bull; REST APIs
-		&bull; High Performance Computing
-		&bull; Distributed Systems
-		&bull; Microservices
-		&bull; Agile Development
-		&bull; Kubernetes
+		CI/CD &bull; AWS &bull; Azure &bull; DevOps &bull; JavaScript &bull; Node.js &bull; Python
+		&bull; C++ &bull; Backend Development &bull; Data Engineering &bull; Airflow &bull; Batch Data
+		Processing &bull; Event Processing &bull; Deep Learning &bull; Terraform &bull; Linux &bull;
+		Unix &bull; Databases &bull; SQL &bull; REST APIs &bull; High Performance Computing &bull;
+		Distributed Systems &bull; Microservices &bull; Agile Development &bull; Kubernetes
 	</Col>
 </Block>
 
@@ -165,4 +143,4 @@
 	<Col xs="12">Available on request</Col>
 </Block>
 
-<Row class="mb-5"></Row>
+<Row class="mb-5" />
