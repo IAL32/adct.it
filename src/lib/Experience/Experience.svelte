@@ -6,13 +6,17 @@
 
 <Block title="Experience">
 	<ExperiencePiece
-		position="Senior Data Engineer"
+		position="Senior Software Engineer"
 		alt="Tacto Logo"
 		company="Tacto GmbH, 09/2023 - Present"
 		logo="icon-tacto.png">
 		<ul>
 			<li>Leading the company to be data-driven</li>
 			<li>Building a data platform from the ground-up on Azure</li>
+            <li>Integrated Dagster as our job orchestrator, increasing pipeline speed by 300%</li>
+            <li>Integrated ClickHouse + PeerDB to query our data for analytics in almost real-time</li>
+            <li>Managing relationships with stakeholders and other teams to ensure smooth collaboration<li>
+            <li>Bringing good vibes and good food</li>
 		</ul>
 	</ExperiencePiece>
 
