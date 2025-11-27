@@ -8,7 +8,7 @@
 	<ExperiencePiece
 		position="Senior Software Engineer"
 		alt="Tacto Logo"
-		company="Tacto GmbH, 09/2023 - Present"
+		company="Tacto Technology GmbH, 09/2023 - 12/2025"
 		logo="icon-tacto.png">
 		<ul>
 			<li>Leading the company to be data-driven</li>
