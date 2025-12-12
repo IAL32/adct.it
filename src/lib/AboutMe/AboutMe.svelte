@@ -9,7 +9,8 @@
 			<h1>Adrian Castro</h1>
 
 			<small>
-				Based in M&uuml;nchen, Germany | Italian (C2), Spanish (C2), English (C1), German (B1), French (A2)
+				Based in M&uuml;nchen, Germany | Italian (C2), Spanish (C2), English (C1), German (B1),
+				French (A2), Portuguese (A2)
 			</small>
 		</div>
 
