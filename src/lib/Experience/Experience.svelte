@@ -11,12 +11,35 @@
 		company="Tacto Technology GmbH, 09/2023 - 12/2025"
 		logo="icon-tacto.png">
 		<ul>
-			<li>Leading the company to be data-driven</li>
-			<li>Building a data platform from the ground-up on Azure</li>
-            <li>Integrated Dagster as our job orchestrator, increasing pipeline speed by 300%</li>
-            <li>Integrated ClickHouse + PeerDB to query our data for analytics in almost real-time</li>
-            <li>Managing relationships with stakeholders and other teams to ensure smooth collaboration<li>
-            <li>Bringing good vibes and good food</li>
+			<li>
+				<b>Lead architectural decisions across the platform</b>, ensuring scalability, reliability,
+				and performance in high-load, data-heavy environments.
+			</li>
+			<li>
+				<b>Drive cross-functional technical initiatives</b> that have a broad impact across the product,
+				working closely with Product Managers, Designers, and fellow Engineers.
+			</li>
+			<li>
+				<b>Mentor and support other engineers</b>, fostering technical growth and best practices
+				through design reviews, pair programming, and knowledge sharing.
+			</li>
+			<li>
+				<b>Design and build distributed systems</b> that handle complex workflows and large volumes of
+				energy data efficiently and securely.
+			</li>
+			<li>
+				<b>Take ownership of critical components</b>, ensuring they evolve with the needs of the
+				business and maintain a high bar for quality and resilience.
+			</li>
+			<li>
+				<b>Influence technical direction and culture</b>, helping shape how we build systems and
+				collaborate as a team.
+			</li>
+			<li>
+				<b>Contribute to strategic planning</b>, helping define roadmaps and long-term technical
+				vision in partnership with engineering and leadership.
+			</li>
+			<li>Bringing good vibes and good food</li>
 		</ul>
 	</ExperiencePiece>
 
