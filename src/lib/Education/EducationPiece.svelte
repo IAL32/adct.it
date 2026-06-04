@@ -8,9 +8,8 @@
 	export let name;
 </script>
 
-<Col xs="12">
-	<!-- <span class="float-right when">{location}</span> -->
-	<p>
+<Col xs="12" md="6">
+	<p class="education-entry">
 		<img class="brand-logo" {alt} src={`img/${logo}`} />
 		{degree} <i>@</i>
 		{name}, {location}

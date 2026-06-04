@@ -1,10 +1,22 @@
 <script>
 	import Block from '$lib/Block.svelte';
-	import ExtLink from '$lib/ExtLink.svelte';
 	import ExperiencePiece from './ExperiencePiece.svelte';
 </script>
 
 <Block title="Experience">
+	<ExperiencePiece
+		position="Senior Software Engineer"
+		alt="Specter Logo"
+		company="Specter, 02/2026 - Present"
+		logo="icon-specter.svg">
+		<ul>
+			<li>
+				<b>Built the MCP server from scratch</b> and led the design and rollout of most new public
+				APIs.
+			</li>
+		</ul>
+	</ExperiencePiece>
+
 	<ExperiencePiece
 		position="Senior Software Engineer"
 		alt="Tacto Logo"
@@ -72,45 +84,6 @@
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
-		position="Software Engineer"
-		alt="data4life Logo"
-		company="D4L data4life gGmbH., 09/2021 - 08/2022"
-		logo="icon-d4l.png">
-		<ul class="d-print-none">
-			<li>
-				Led the integration of
-				<ExtLink href="https://github.com/notaryproject/notary/">Notary</ExtLink>
-				for securing company's infrastructure
-			</li>
-			<li>
-				Increased productivity by 30% by speeding up Jenkins pipelines and Ansible deployments
-			</li>
-		</ul>
-	</ExperiencePiece>
-	<ExperiencePiece
-		position="Software Engineer"
-		alt="Heveloon Ltd Logo"
-		logo="icon-heveloon.png"
-		company="Heveloon Ltd., 10/2020 - 09/2022">
-		<ul>
-			<li>Backend development of REST APIs and integration with Blockchain applications</li>
-			<li>
-				Projects:
-				<a href="https://autumn-whispers.com/" target="_blank"> AutumnWhispers Ltd. </a>
-				&bull;
-				<a href="https://www.gameologycrypto.com/" target="_blank"> GUNOX </a>
-				&bull;
-				<a href="https://www.omegastations.com/" target="_blank"> Omegastations </a>
-				&bull;
-				<a href="https://www.widecareservices.com/" target="_blank"> Wide Care Services </a>
-				&bull;
-				<a href="https://www.sisterly.it/" target="_blank"> Sisterly </a>
-				&bull;
-				<a href="https://www.imperivm.io/" target="_blank"> Imperivm </a>
-			</li>
-		</ul>
-	</ExperiencePiece>
-	<ExperiencePiece
 		position="Technical Co-Founder"
 		alt="Joleat Logo"
 		logo="icon-joleat.png"
@@ -123,52 +96,47 @@
 		</ul>
 	</ExperiencePiece>
 	<ExperiencePiece
+		compact
+		position="Software Engineer"
+		alt="data4life Logo"
+		company="D4L data4life gGmbH., 09/2021 - 08/2022"
+		logo="icon-d4l.png" />
+	<ExperiencePiece
+		compact
+		position="Software Engineer"
+		alt="Heveloon Ltd Logo"
+		logo="icon-heveloon.png"
+		company="Heveloon Ltd., 10/2020 - 09/2022" />
+	<ExperiencePiece
+		compact
 		position="Staff Board Member"
 		alt="UnixMiB Logo"
 		logo="icon-unixmib.png"
-		company="UnixMiB, 2017 - Present">
-		<ul class="d-print-none">
-			<li>Helped to propose, organize and setup of international events</li>
-			<li>Actively committed to Open Source community</li>
-		</ul>
-	</ExperiencePiece>
+		company="UnixMiB, 2017 - Present" />
 	<ExperiencePiece
+		compact
 		position="Software Engineer"
 		alt="BioDataAnalysis GmbH Logo"
 		logo="icon-bda.svg"
-		company="BioDataAnalysis GmbH., 2020 - 08/2021">
-		<ul class="d-print-none">
-			<li>Developed high-performance C++ internal libraries</li>
-			<li>Worked on frontend applications with data coming from our C++ Thrift APIs</li>
-		</ul>
-	</ExperiencePiece>
+		company="BioDataAnalysis GmbH., 2020 - 08/2021" />
 	<ExperiencePiece
+		compact
 		position="Full-Stack Developer"
 		alt="Net2Web Srl Logo"
 		logo="icon-tuttobarche.png"
 		company="Net2Web Srl., 2017 - 2021" />
 	<ExperiencePiece
+		compact
+		print={false}
 		position="Internship"
 		alt="UniMiB Logo"
 		logo="icon-unimib.png"
-		company="Universit&agrave; degli studi di Milano-Bicocca, 03/2019 - 06/2019"
-		print={false}>
-		<ul>
-			<li>
-				Explored and developed a novel algorithm for cancer cell categorization using Particle Swarm
-				Optimization
-			</li>
-		</ul>
-	</ExperiencePiece>
+		company="Universit&agrave; degli studi di Milano-Bicocca, 03/2019 - 06/2019" />
 	<ExperiencePiece
+		compact
+		print={false}
 		position="Junior Partner"
 		alt="Bicocca Security Laboratory Logo"
 		logo="icon-bislab.png"
-		company="Bicocca Security Laboratory, 2017 - 2019"
-		print={false}>
-		<ul>
-			<li>Helped to coordinate tasks for security research</li>
-			<li>Learned about state-of-the-art security standards (GDPR)</li>
-		</ul>
-	</ExperiencePiece>
+		company="Bicocca Security Laboratory, 2017 - 2019" />
 </Block>

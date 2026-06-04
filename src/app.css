@@ -20,15 +20,20 @@ a {
   height: 24px;
 }
 
-#objective p, #education p {
-  font-family: Georgia, Serif;
-  font-style: italic;
-  color: #666;
+.education-entry {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+.education-entry .brand-logo {
+  vertical-align: middle;
+  margin-right: 6px;
 }
 
-.full-name {
-  border-bottom: 1px solid #999;
-  padding-bottom: 16px;
+@media screen and (min-width: 768px) {
+  #education {
+    border-bottom: 1px solid #999;
+    padding-bottom: 16px;
+  }
 }
 
 h2 {
@@ -64,6 +69,54 @@ h2 {
   font-size: 16px;
   color: #999;
   font-weight: normal;
+}
+
+.compact-role {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  line-height: 1.4;
+}
+.compact-role .brand-logo {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.mobile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mobile-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.mobile-header-text h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.1;
+}
+.mobile-header-text small {
+  display: block;
+  margin-top: 4px;
+}
+.mobile-contacts {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 12px 0;
+  border-bottom: 1px solid #999;
+  font-size: 20px;
+}
+.mobile-contacts a {
+  border-bottom: none;
+  color: #bd2130;
+}
+.mobile-contacts .social-logo {
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (max-width: 992px) {
