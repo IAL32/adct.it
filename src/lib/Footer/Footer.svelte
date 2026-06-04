@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ExtLink from '$lib/ExtLink.svelte';
-	import { Col, Container, Row } from 'sveltestrap';
+	import { Col, Container, Row } from '@sveltestrap/sveltestrap';
 </script>
 
 <footer class="text-muted">

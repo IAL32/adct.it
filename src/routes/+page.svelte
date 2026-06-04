@@ -1,13 +1,9 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	import AboutMe from '$lib/AboutMe/AboutMe.svelte';
 	import Block from '$lib/Block.svelte';
 	import Experience from '$lib/Experience/Experience.svelte';
 	import ExtLink from '$lib/ExtLink.svelte';
-	import { Col, Row } from 'sveltestrap';
+	import { Col, Row } from '@sveltestrap/sveltestrap';
 </script>
 
 <AboutMe />

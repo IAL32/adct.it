@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { Container } from 'sveltestrap';
+	import { Container } from '@sveltestrap/sveltestrap';
 
 	import '../app.css';
 

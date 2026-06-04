@@ -1,5 +1,5 @@
 <script>
-	import { Col, Row } from 'sveltestrap';
+	import { Col, Row } from '@sveltestrap/sveltestrap';
 
 	export let title;
 	export let avoidBreak = false;

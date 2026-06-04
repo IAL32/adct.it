@@ -1,5 +1,5 @@
 <script>
-	import { Col } from 'sveltestrap';
+	import { Col } from '@sveltestrap/sveltestrap';
 
 	export let position;
 	export let logo;

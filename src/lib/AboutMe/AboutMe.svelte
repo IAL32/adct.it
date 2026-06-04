@@ -1,5 +1,5 @@
 <script>
-	import { Col, Icon, Row } from 'sveltestrap';
+	import { Col, Icon, Row } from '@sveltestrap/sveltestrap';
 	import EducationPiece from '$lib/Education/EducationPiece.svelte';
 </script>
 
