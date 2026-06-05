@@ -6,7 +6,7 @@
 <Block title="Experience">
 	<ExperiencePiece
 		position="Senior Software Engineer"
-		alt="Specter Logo"
+		alt="Specter"
 		company="Specter, 02/2026 - Present"
 		logo="icon-specter.svg">
 		<ul>
@@ -19,7 +19,7 @@
 
 	<ExperiencePiece
 		position="Senior Software Engineer"
-		alt="Tacto Logo"
+		alt="Tacto"
 		company="Tacto Technology GmbH, 09/2023 - 12/2025"
 		logo="icon-tacto.png">
 		<ul>
@@ -57,7 +57,7 @@
 
 	<ExperiencePiece
 		position="Data Engineer"
-		alt="IONITY Logo"
+		alt="IONITY"
 		company="IONITY GmbH, 09/2022 - 08/2023"
 		logo="icon-ionity.png">
 		<ul>
@@ -85,7 +85,7 @@
 	</ExperiencePiece>
 	<ExperiencePiece
 		position="Technical Co-Founder"
-		alt="Joleat Logo"
+		alt="Joleat"
 		logo="icon-joleat.png"
 		company="Joleat, 2019 - 2022">
 		<ul>
@@ -98,45 +98,45 @@
 	<ExperiencePiece
 		compact
 		position="Software Engineer"
-		alt="data4life Logo"
+		alt="data4life"
 		company="D4L data4life gGmbH., 09/2021 - 08/2022"
 		logo="icon-d4l.png" />
 	<ExperiencePiece
 		compact
 		position="Software Engineer"
-		alt="Heveloon Ltd Logo"
+		alt="Heveloon Ltd"
 		logo="icon-heveloon.png"
 		company="Heveloon Ltd., 10/2020 - 09/2022" />
 	<ExperiencePiece
 		compact
 		position="Staff Board Member"
-		alt="UnixMiB Logo"
+		alt="UnixMiB"
 		logo="icon-unixmib.png"
 		company="UnixMiB, 2017 - Present" />
 	<ExperiencePiece
 		compact
 		position="Software Engineer"
-		alt="BioDataAnalysis GmbH Logo"
+		alt="BioDataAnalysis GmbH"
 		logo="icon-bda.svg"
 		company="BioDataAnalysis GmbH., 2020 - 08/2021" />
 	<ExperiencePiece
 		compact
 		position="Full-Stack Developer"
-		alt="Net2Web Srl Logo"
+		alt="Net2Web Srl"
 		logo="icon-tuttobarche.png"
 		company="Net2Web Srl., 2017 - 2021" />
 	<ExperiencePiece
 		compact
 		print={false}
 		position="Internship"
-		alt="UniMiB Logo"
+		alt="UniMiB"
 		logo="icon-unimib.png"
 		company="Universit&agrave; degli studi di Milano-Bicocca, 03/2019 - 06/2019" />
 	<ExperiencePiece
 		compact
 		print={false}
 		position="Junior Partner"
-		alt="Bicocca Security Laboratory Logo"
+		alt="Bicocca Security Laboratory"
 		logo="icon-bislab.png"
 		company="Bicocca Security Laboratory, 2017 - 2019" />
 </Block>

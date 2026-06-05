@@ -11,7 +11,6 @@
 <Col xs="12" md="6">
 	<p class="education-entry">
 		<img class="brand-logo" {alt} src={`img/${logo}`} />
-		{degree} <i>@</i>
-		{name}, {location}
+		{degree} @ {name}, <span class="education-dates">{location}</span>
 	</p>
 </Col>

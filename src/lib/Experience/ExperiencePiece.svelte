@@ -14,15 +14,17 @@
 {#if compact}
 	<Col xs="12" class={`compact-role ${class_}`}>
 		<img class="brand-logo" {alt} src={`img/${logo}`} />
-		<b>{position}</b> &mdash; <span class="when">{company}</span>
+		<b>{position}</b> - <span class="when">{company}</span>
 	</Col>
 {:else}
 	<Col xs="12" class={class_}>
-		<span class="float-right when">{company}</span>
-		<h2>
-			<img class="brand-logo" {alt} src={`img/${logo}`} />
-			{position}
-		</h2>
+		<div class="role-header">
+			<h3 class="role-title">
+				<img class="brand-logo" {alt} src={`img/${logo}`} />
+				<span>{position}</span>
+			</h3>
+			<span class="when">{company}</span>
+		</div>
 		<slot />
 	</Col>
 {/if}
