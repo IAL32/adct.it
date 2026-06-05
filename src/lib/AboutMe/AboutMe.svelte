@@ -31,6 +31,18 @@
 			</small>
 		</div>
 
+		<!-- Print-only education entries: sit below the languages on print -->
+		<div class="d-none d-print-block print-education-list mt-2">
+			<p class="print-education">
+				<img class="brand-logo" alt="TUM" src="img/icon-tum.png" />
+				M.Sc. Data Engineering @ TUM, 2019 - 2022
+			</p>
+			<p class="print-education">
+				<img class="brand-logo" alt="UniMiB" src="img/icon-unimib.png" />
+				B.Sc. Computer Science @ UniMiB, 2016 - 2019
+			</p>
+		</div>
+
 		<Row class="mt-3 d-print-none" id="education">
 			<EducationPiece
 				location="2019 - 2022"
@@ -47,17 +59,6 @@
 		</Row>
 	</Col>
 	<Col md="auto" class="pic d-none d-md-block d-print-block">
-		<!-- Print-only education entries: sit alongside the socials on print -->
-		<div class="d-none d-print-block print-education-list">
-			<p class="print-education">
-				<img class="brand-logo" alt="TUM" src="img/icon-tum.png" />
-				M.Sc. Data Engineering @ TUM, 2019 - 2022
-			</p>
-			<p class="print-education">
-				<img class="brand-logo" alt="UniMiB" src="img/icon-unimib.png" />
-				B.Sc. Computer Science @ UniMiB, 2016 - 2019
-			</p>
-		</div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img src="img/profile_picture.png" alt="Photo of Adrian Castro" style="width: 150px" />
 		<p>
