@@ -12,6 +12,7 @@
 		class="mobile-avatar" />
 	<div class="mobile-header-text">
 		<h1>Adrian Castro</h1>
+		<p class="headline">Backend Tech Lead at Specter &middot; Distributed systems, data platforms, APIs</p>
 		<small>
 			Based in M&uuml;nchen, Germany | Italian (C2), Spanish (C2), English (C1), German (B1),
 			French (A2), Portuguese (A2)
@@ -24,6 +25,7 @@
 		<!-- Desktop-only name + languages (mobile uses .mobile-header above) -->
 		<div class="d-none d-md-block d-print-block mt-5">
 			<h1>Adrian Castro</h1>
+			<p class="headline">Backend Tech Lead at Specter &middot; Distributed systems, data platforms, APIs</p>
 
 			<small>
 				Based in M&uuml;nchen, Germany | Italian (C2), Spanish (C2), English (C1), German (B1),
@@ -35,23 +37,23 @@
 		<div class="d-none d-print-block print-education-list mt-2">
 			<p class="print-education">
 				<img class="brand-logo" alt="TUM" src="img/icon-tum.png" />
-				M.Sc. Data Engineering @ TUM, 2019 - 2022
+				M.Sc. Data Engineering @ TUM, 2019 – 2022
 			</p>
 			<p class="print-education">
 				<img class="brand-logo" alt="UniMiB" src="img/icon-unimib.png" />
-				B.Sc. Computer Science @ UniMiB, 2016 - 2019
+				B.Sc. Computer Science @ UniMiB, 2016 – 2019
 			</p>
 		</div>
 
 		<Row class="mt-3 d-print-none" id="education">
 			<EducationPiece
-				location="2019 - 2022"
+				location="2019 – 2022"
 				alt="TUM"
 				degree="M.Sc. Data Engineering"
 				logo="icon-tum.png"
 				name="TUM" />
 			<EducationPiece
-				location="2016 - 2019"
+				location="2016 – 2019"
 				alt="UniMiB"
 				logo="icon-unimib.png"
 				degree="B.Sc. Computer Science"

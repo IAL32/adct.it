@@ -9,6 +9,20 @@
 <AboutMe />
 <Experience />
 
+<!-- Technologies Keywords -->
+<Block title="Technologies and Knowledge" print={true}>
+	<Col xs="12" class="skills">
+		<p><b>Languages:</b> Python, JavaScript / Node.js, C++, SQL</p>
+		<p><b>Cloud &amp; infrastructure:</b> AWS, Azure, Terraform, Kubernetes, CI/CD, Linux / Unix</p>
+		<p><b>Data:</b> Data engineering, Airflow, batch and event processing, databases</p>
+		<p>
+			<b>Architecture:</b> Distributed systems, microservices, REST APIs, MCP, high performance
+			computing
+		</p>
+		<p><b>Other:</b> Deep learning, DevOps, agile development</p>
+	</Col>
+</Block>
+
 <!-- Events -->
 <Block title="Events" print={false}>
 	<Col xs="12">
@@ -17,11 +31,11 @@
 	</Col>
 	<Col xs="12">
 		<ExtLink href="https://akademy.kde.org/2019">Akademy 2019</ExtLink>
-		- Organized the yearly KDE Akademy with more 200+ people with UnixMiB
+		- Organized the yearly KDE Akademy with 200+ people with UnixMiB
 	</Col>
 	<Col xs="12">
 		<ExtLink href="https://mlconf.com/">MLConf San Francisco 2019</ExtLink>
-		- Helped to organize the yearly MLConf in SF
+		- Helped organize the yearly MLConf in SF
 	</Col>
 	<Col xs="12">
 		<ExtLink href="https://fosdem.org/">FOSDEM</ExtLink>
@@ -105,12 +119,19 @@
 <Block title="Contributed To" print={true}>
 	<Col xs="12">
 		<ExtLink href="https://github.com/flathunters/flathunter">Flathunter</ExtLink>
+		&middot;
 		<ExtLink href="https://github.com/notaryproject/notary">Notary</ExtLink>
+		&middot;
 		<ExtLink href="https://github.com/docker/docker.github.io">Docs @ Docker</ExtLink>
+		&middot;
 		<ExtLink href="https://github.com/tensorflow/tensorflow">TensorFlow</ExtLink>
+		&middot;
 		<ExtLink href="https://github.com/learning-at-home/hivemind">Hivemind</ExtLink>
+		&middot;
 		<ExtLink href="https://github.com/sse-secure-systems/connaisseur">Connaisseur</ExtLink>
+		&middot;
 		<ExtLink href="https://github.com/apache/airflow">Apache Airflow</ExtLink>
+		&middot;
 		<ExtLink href="https://github.com/ClickHouse/clickhouse-connect">ClickHouse Connect</ExtLink>
 	</Col>
 </Block>
@@ -122,17 +143,6 @@
 		dead hobby.
 		<br />
 		My weakness is pausing movies or TV series to explain something happening there.
-	</Col>
-</Block>
-
-<!-- Technologies Keywords -->
-<Block title="Technologies and Knowledge" print={true}>
-	<Col xs="12" style="font-size: 11pt">
-		CI/CD &bull; AWS &bull; Azure &bull; DevOps &bull; JavaScript &bull; Node.js &bull; Python
-		&bull; C++ &bull; Backend Development &bull; Data Engineering &bull; Airflow &bull; Batch Data
-		Processing &bull; Event Processing &bull; Deep Learning &bull; Terraform &bull; Linux &bull;
-		Unix &bull; Databases &bull; SQL &bull; REST APIs &bull; High Performance Computing &bull;
-		Distributed Systems &bull; Microservices &bull; Agile Development &bull; Kubernetes
 	</Col>
 </Block>
 

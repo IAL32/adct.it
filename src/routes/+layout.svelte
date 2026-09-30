@@ -4,9 +4,9 @@
 
 	import '../app.css';
 
-	const title = 'Adrian David Castro Tenemaya - Personal Website';
-	const description = 'Software Engineer | TUM';
-	const imageDescription = 'Picture of Adrian Castro looking away from the viewer. Very sexy.';
+	const title = 'Adrian David Castro Tenemaya – Backend Tech Lead';
+	const description = 'Backend Tech Lead at Specter, based in Munich. Distributed systems, data platforms and APIs.';
+	const imageDescription = 'Photo of Adrian Castro';
 	const fullUrl = 'https://' + $page.url.host;
 	const profilePictureUrl = fullUrl + '/img/profile_picture.png';
 </script>

@@ -1,7 +1,14 @@
 body {
-  font: 16px Helvetica, Sans-Serif;
-  font-family: sans-serif;
-  line-height: 1.15;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #222;
+}
+
+.headline {
+  margin: 4px 0 6px;
+  font-size: 1.1em;
+  color: #444;
 }
 
 a {
@@ -56,16 +63,21 @@ a {
   }
 }
 
-.role-header {
+.role-header,
+.timeline-role-header,
+.compact-role {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
   gap: 0 8px;
 }
-@media (min-width: 768px) {
-  .role-header .when::before {
-    content: "@ ";
-  }
+.role-header .when,
+.timeline-role-header .when,
+.compact-role .when {
+  margin-left: auto;
+}
+.company {
+  font-weight: normal;
 }
 .role-title {
   font-size: 20px;
@@ -76,6 +88,39 @@ a {
 .role-title .brand-logo {
   vertical-align: middle;
   margin-right: 8px;
+}
+.role-timeline {
+  list-style: none;
+  margin: 8px 0 0 10px;
+  padding: 0;
+}
+.timeline-role {
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 12px;
+}
+.timeline-role::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 0.5em;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #999;
+}
+.timeline-role:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(0.5em + 15px);
+  bottom: 4px;
+  width: 1px;
+  background: #999;
+}
+.timeline-role-title {
+  font-size: 17px;
+  font-weight: bold;
 }
 .part-content-title h2 {
   font-size: 1em;
@@ -96,21 +141,21 @@ a {
 .part-content-title {
   margin-bottom: 16px;
   font-weight: bold;
-  font-style: italic;
-  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9em;
+  color: #444;
 }
 
-.part-content {
-  border-left: 1px solid #999;
-}
-.part-content .when {
-  bottom: 0;
-  right: 0;
-  font-style: italic;
-  font-family: Georgia, Serif;
-  font-size: 16px;
-  color: #999;
+.when {
+  font-size: 15px;
+  color: #6c757d;
   font-weight: normal;
+  white-space: nowrap;
+}
+
+.skills p {
+  margin-bottom: 4px;
 }
 
 .compact-role {
@@ -166,16 +211,17 @@ a {
   .part-content {
     padding-left: 16px !important;
   }
-  .part-content .when {
-    float: none !important;
-    font-size: 16px;
-  }
-
   .part-content-title {
-    border-right: 0;
     padding-left: 0;
     padding-right: 0;
-    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .part-content-title {
+    padding-bottom: 4px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ddd;
   }
 }
 
